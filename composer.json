@@ -1,0 +1,28 @@
+{
+	"name": "akmaljp/drivemu",
+	"description": "Embed drivemu content in your Flarum.",
+	"type": "flarum-extension",
+	"keywords": ["flarum","embed","facebook","media","twitter","twitch","youtube"],
+	"version": "0.1.0",
+	"author": {
+		"name": "AkmalJP"
+	},
+	"license": "MIT",
+	"require": {
+		"flarum/core": "^0.1.0"
+	},
+	"support": {
+		"source": "https://github.com/akmaljp/drivemu",
+		"issues": "https://github.com/akmaljp/drivemu/issues"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "drivemu",
+			"icon": {
+				"name": "youtube-play",
+				"backgroundColor": "#cc181e",
+				"color": "#fff"
+			}
+		}
+	}
+}
